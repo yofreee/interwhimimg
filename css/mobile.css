@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+:root{
+    --primary-color: #21325E;
+    --font-primary:'Poppins', sans-serif;
+}
+body{
+    background-image: url("https://i.ibb.co/R032BPW/imgfinalfinalnal22.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header--container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 4rem;
+    background: transparent;
+}
+.header--container .header--content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 4rem;
+    padding: 2rem;
+    margin: 0 auto;
+    background: transparent;
+}
+.header--content h2{
+    text-align: center;
+    font-size: 1.4rem;
+    font-family: var(--font-primary);
+    color: white;
+    cursor: pointer;
+}
+.header--content span{
+    color: red;
+    font-family: var(--font-primary);
+}
+.main--container{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    background: transparent;
+}
+.main--container div{
+    width: 100%;
+    height: auto;
+}
+.main--container .box--title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 7rem;
+    background: transparent;
+    margin-top: 5rem;
+    flex-wrap: wrap;
+}
+.box--title h2{
+    text-align: center;
+    font-size: 1.6rem;
+    font-family: var(--font-primary);
+    color: white;
+    margin: 0 auto;
+}
+.main--container .box--boton{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+.main--container .box--boton a{
+    width: 50%;
+    height: 4rem;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-family: var(--font-primary);
+    font-weight: 600;
+    color: var(--primary-color);
+    background: white;
+    padding: 1rem;
+    border: none;
+    border-radius: 4rem;
+    margin: 0 auto;
+    text-align: center;
+    position: absolute;
+}
